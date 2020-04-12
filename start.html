@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Event Starting</title>
+	<style type="text/css">
+		body
+		{
+			background-image: url("download.jpg");
+			background-color: #cccccc;
+			background-size:1660px;
+
+		}
+		img
+		{
+            float: left;
+			width: 180px;
+			height: 180px;
+			border-radius: 50%;
+
+		}
+		.button{
+			border: none;
+			color:black;
+			padding: 15px 32px;
+			text-align: center;
+			text-decoration: none;
+			display: inline block;
+			font-size: 16px;
+}
+		
+.button1
+{
+	background-color:white ;
+	color: black;
+	border: 2px solid #ff6699;
+}
+.button1:hover 
+{
+background-color: #ff6699;
+  color: white;
+}
+h2
+{
+	text-align: center;
+    font-size: 42px;
+    color: #ff6699;
+}
+h1
+		{
+			font-size: 64px;
+			font-family: Forte;
+			color:white;
+			margin-left: 70px;
+		}
+		form
+		{
+			margin-left: 240px;
+		}
+.input
+{
+	margin-left: 480px;
+}
+.input1
+{
+	margin-left: 480px;
+}
+.input2
+{
+	margin-left: 12px
+}
+legend
+{
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+}
+</style>
+
+
+</head>
+<body>
+	<img  src="main.jpg" alt="SAEPL" >
+	<div align="right">	<button class="button button1"  onclick="document.location='index.html'">HOME</button></div>
+	<h1 align="center"><u>Star Event Organisers .</u></h1>
+	<marquee loop=1><font color="blue"><u>Disclamer : Make sure you have reached to our resource person or a staff member or our costumer care people once before filling this form</marquee></font></u>
+	<form ><fieldset><legend>Start Date</legend><h2> Enter the date from which you want that the event Start</h2>
+	
+		<input class="input" type="date" name="date" align="center" required>
+	
+</fieldset><br><br>
+<fieldset>
+	<legend>End Date</legend>
+	<h2> Enter the date from which you want that the Event to end</h2>
+	
+		<input  class="input" type="date" name="date" align="center" required>
+</fieldset><br><br>
+<fieldset>
+	<legend>Guests</legend>
+	<h2> Enter the number of guests</h2>
+	
+		<input class="input" type="number" name="guests" align="center" min="100" max="10000" required>
+</fieldset>
+<fieldset>
+	<legend>Payment</legend>
+	<h2>Select your payment option</h2>
+	<b><input class="input"type="radio" name="payment">Credit Card<br>
+	<input class="input" type="radio" name="payment">Debit Card<br>
+	<input class="input" type="radio" name="payment">Cheque<br>
+	<input class="input" type="radio" name="payment">Cash<br>
+	<input class="input" type="radio" name="payment">UPI<br></b>
+</fieldset><br>
+<br>
+<input type="submit" name="btnsubmit" class="input"><input type="reset" name="btnreset" class="input input2"><br><br>
+<marquee loop=1><font color="blue"><u>Disclamer : Make sure you have reached to our resource person or a staff member or our costumer care people once before filling this form</marquee></font></u>
+</form>
+</body>
+</html>

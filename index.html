@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Event management System:</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"><!--I have used this link to use their directory on server for the slideshow of the images in page.-->
+	<style >
+		body
+		{
+			background-image: url("download.jpg");
+			background-color: #cccccc;
+			background-size:1660px;
+
+		}
+		.mySlides {
+            display:none;
+            width: 960px;
+            height:480px
+            ;
+
+              }
+        h1
+		{
+			font-size: 64px;
+			font-family: Forte;
+			font-weight: bold;
+			color:white;
+			margin-left: 70px;
+		}
+		h2
+		{
+			font-size: 24px;
+			color: white;
+			}
+		
+		table
+		{
+			font-size: 24px;
+			font-family: Georgia;
+			border-spacing: 20px;
+
+
+		}
+		.img
+		{
+           width: 1440px;
+           height: 480px;
+		}
+		.img1
+		{
+			float: left;
+			width: 180px;
+			height: 180px;
+			border-radius: 50%;
+
+		}
+		.img2
+		{
+			float: left;
+			width: 1500px;
+			height: 480px;
+			border-radius:0% ;
+		}
+		.img3
+		{
+			
+			width: 80px;
+			height:80px;
+			border-radius: 50%;
+		}
+		.center
+		{
+			position: absolute;
+			top: 60%;
+			left: 30%;
+			transform: translate(-50%;-50%);
+			font-size: 48px;
+			color: white;
+			font-family: Elephant;
+		}
+				
+		.container
+		{
+			position: relative;
+		}
+		legend
+		{
+			font-size: 40px;
+			color: white;
+		
+
+		}
+		marquee
+		{
+			 color:#ff0066;
+			 font-family: Arial;
+
+           
+		}
+
+		.button{
+			border: none;
+			color:black;
+			padding: 15px 32px;
+			text-align: center;
+			text-decoration: none;
+			display: inline block;
+			font-size: 16px;
+}
+		
+.button1
+{
+	background-color:white ;
+	color: black;
+	border: 2px solid yellow;
+}
+.button1:hover 
+{
+background-color: yellow;
+  color: white;
+}
+.button2
+{
+	background-color:white ;
+	color: black;
+	border: 2px solid yellow;
+}
+.button2:hover 
+{
+background-color: yellow;
+  color: white;
+}
+
+.button3
+{
+	background-color:yellow ;
+	color: black;
+	border: 2px solid yellow;
+	font-size: 24px;
+	font-family: Georgia;
+
+
+}
+.button3:hover 
+{
+background-color: white;
+  color: currentColor;
+}
+
+.td
+{
+	font-size: 24px;
+
+}
+.td1
+{
+	font-size: 32px;
+	text-decoration: underline;
+
+}
+	</style>
+	</head>
+<body >
+
+<div align="right">	<button class="button button1"  onclick="document.location='Login Sign up page.html'">Login/Sign up</button></div>
+<img class="img img1" src="main.jpg" alt="SAEPL" >
+<h1 align="center"><u>Star Event Organisers .</u></h1>
+<hr>
+<div ><img class="img img2" src="https://images.unsplash.com/photo-1535443274868-756b0f070b6e?ixlib=rb-1.2.1&w=1000&q=80"><div class="center">Hello,Welcome To our Website.</div></div><br>
+<table cellspacing="2px" cellpadding="2px" border=0>
+	<tr  bgcolor="yellow" height="5px" >
+	<b><td class="td td1" >Type</td>
+		<td class="td td1">Organise</td>
+		<td class="td td1"><button class="button button3" onclick="document.location='aboutus.html'"><u>About us</u></button></td>
+		<td class="td td1"><button class="button button3" onclick="document.location='Login Sign up page.html'"><u>Account</u></button></td></b>
+	</tr>
+
+	<tr>
+		<td><button class="button button2" onclick="document.location='typesports.html'">Sports Meets</button></td>
+		<td><button class="button button2" onclick="document.location='organisefullevent.html'">Full Event</button></td>
+	</tr>
+	<tr>
+		<td><button class="button button2" onclick="document.location='typecultural.html'">Cultural</button></td>
+		<td><button class="button button2" onclick="document.location='organisefood.html'">FOOD </button></td>
+	</tr>
+	<tr>
+		<td><button class="button button2" onclick="document.location='typeconvocation.html'">Convocation</button></td>
+		<td><button class="button button2" onclick="document.location='organisetransport.html'">Transports</button></td>
+	</tr>
+	<tr>
+		<td><button class="button button2" onclick="document.location='typeconfrence.html'">Confrence</button></td>
+		<td><button class="button button2" onclick="document.location='organiselogging.html'">Logging</button></td>
+	</tr>
+</table>
+</fieldset>
+<div align="center">
+<iframe  width="1080" height="480" src="https://www.youtube.com/embed/JT_jWQIKNiA?autoplay=1"S frameborder="0" allow="accelerometer; autoplay; gyroscope;"  allowfullscreen></iframe></div>
+
+<fieldset>
+
+<fieldset>
+	<legend><b>
+		EVENT DETAILS</b>
+	</legend>
+	<table cellpadding="4px" cellspacing="4px" >
+		<tr>
+			<td><button class=" button button2" onclick="document.location='start.html'"><b>Event Start Date</b></button></td>
+			<td><button class=" button button2" onclick="document.location='start.html'"><b>Event End Date</b></button></td>
+			<td><button class=" button button2" onclick="document.location='start.html'"><b>No. of guest</b></button></td>
+			<td><button class=" button button2" onclick="document.location='start.html'"><b>Payment.</b></button></td>
+
+	<td><button  class="button button2" onclick="document.location='addonn.html'"><b>ADD ONs</b></button></td>
+	<td><button class="button button2" onclick="document.location='special package.html'" ><b>Special Package</b></button></td>
+
+		</tr>
+		
+	</table></fieldset>
+<img class="img img2" src="https://d22ir9aoo7cbf6.cloudfront.net/wp-content/uploads/sites/2/2016/09/Atlantis-04.jpg"><br>
+<fieldset>
+	<div class="w3-content w3-display-container">
+  <img class="mySlides" src="shriyansh.jpg" >
+  <img class="mySlides" src="saiharsha.jpg" >
+  <img class="mySlides" src="hemant.jpg" >
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+</fieldset>
+
+
+<fieldset>
+	<legend>
+	<b>	CONTACT US</b>
+	</legend>
+<marquee ><h2>Shriyansh Agarwal</h2>
+<p>Managing Director</p>
+<h2>Contact no..8177086366</h2>
+<h2>Address:SAEPL,Industrial AREA</h2>
+<h2>Lovely Professional University</h2>
+<h2>Phagwara,India</h2></marquee>
+</fieldset>
+<br>
+<br>
+ <div align="center">
+    <a href="https://www.facebook.com">
+<img  border="0" alt="facebook" class="img img3" src="facebook logo.png" width="100" height="100">
+</a>
+<a href="https://www.instagram.com">
+<img border="0" alt="instagram" class="img img3" src="instagram.png" width="100" height="100">
+</a>
+<a href="https://www.twitter.com">
+<img border="0" alt="twitter" class="img img3" src="twitter.png" width="100" height="100">
+</a>
+</div>
+
+</body>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+</html>
